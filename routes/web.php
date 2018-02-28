@@ -35,6 +35,7 @@ Route::post('/task', function (Request $request) {
 Route::delete('/task/{task}', function (Task $task) {
     //
 });
+<<<<<<< HEAD
 Route::get('/', function () {
     return view('tasks');
 });
@@ -80,5 +81,8 @@ Route::delete('/task/{task}', function (Task $task) {
 
     return redirect('/');
 });
+=======
+
+>>>>>>> e48e7b8... project
 
 
